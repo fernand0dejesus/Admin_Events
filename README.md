@@ -30,13 +30,14 @@ Paso 1: Crear el proyecto con Vite
 bash# Crear nueva aplicación React con Vite
 npm create vite@latest administrador-eventos -- --template react
 cd administrador-eventos
+--------------------------
 
 # Instalar dependencias
 npm install
 Paso 2: Instalar Tailwind CSS
 bash# Instalar Tailwind CSS
 npm install -D tailwindcss postcss autoprefixer
-
+----------------------------------
 # Inicializar Tailwind
 npx tailwindcss init -p
 Paso 3: Configurar Tailwind CSS
@@ -52,6 +53,8 @@ export default {
   },
   plugins: [],
 }
+
+-------------------------------------
 Paso 4: Configurar CSS principal
 Reemplazar el contenido de src/index.css:
 css@tailwind base;
@@ -74,6 +77,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <App />
   </React.StrictMode>,
 )
+
+-------------------------
 Paso 8: Ejecutar la aplicación
 bash# Iniciar servidor de desarrollo
 npm run dev
