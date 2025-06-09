@@ -1,0 +1,91 @@
+/* Base layout */
+body {
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(to bottom right, #fff7ec, #ffe0b2);
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  color: #e65100;
+}
+
+.card {
+  background-color: #fffaf0;
+  border: 1px solid #ffd180;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(255, 152, 0, 0.1);
+}
+
+/* Buttons */
+.button-primary {
+  background-color: #fb8c00;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button-primary:hover {
+  background-color: #ef6c00;
+}
+
+.button-secondary {
+  background-color: #ffe0b2;
+  color: #e65100;
+  border: 1px solid #ffb74d;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.button-secondary:hover {
+  background-color: #ffcc80;
+}
+
+/* Form Inputs */
+input[type="text"], select, textarea {
+  border: 1px solid #ffcc80;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  width: 100%;
+  transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+select:focus,
+textarea:focus {
+  border-color: #fb8c00;
+  outline: none;
+}
+
+/* Tags and Labels */
+.tag {
+  display: inline-block;
+  background-color: #ffe0b2;
+  color: #e65100;
+  font-size: 0.75rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 999px;
+}
+.button-danger {
+  background-color: #fb6f50; /* tono naranja-rojizo */
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button-danger:hover {
+  background-color: #e04e2a;
+}
